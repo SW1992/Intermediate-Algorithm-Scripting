@@ -18,14 +18,13 @@ function whatIsInAName(collection, source) {
    // set intial value & reset to zero if value has been increased
     for (prop in source) {
       if (obj.hasOwnProperty(prop) && source[prop] === obj[prop]) {
-        // if object contains source property & values are equal
+      // if object contains source property & values are equal
         propMatchCount = propMatchCount + 1;
-        console.log(propMatchCount);
         // increase prop match count variable by 1
         if (sourceKeys.length == propMatchCount) {
         // if all props match
-        arr.push(obj);
-        // push whole object to array
+          arr.push(obj);
+          // push whole object to array
         }  
       }
     }
