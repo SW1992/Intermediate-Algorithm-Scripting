@@ -1,6 +1,5 @@
 // Convert HTML Entities Bonfire Solution: 
 function convertHTML(str) {
-  // &colon;&rpar;
   var pattern = /[&<>"']/g;
   // char matches to look for globally
   var replaceChar = null;
