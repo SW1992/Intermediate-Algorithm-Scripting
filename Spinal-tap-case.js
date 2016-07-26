@@ -2,7 +2,6 @@
 function spinalCase(str) {
   var spaceWord = str.replace(/([A-Z])/g, " $1");
   // space stuck together words
-  console.log(spaceWord);
   var removeLeading = spaceWord.replace(/\B\s/g, "");
   // remove leading space, replace with no space
   var removeUnder = removeLeading.replace(/_/g, "");
