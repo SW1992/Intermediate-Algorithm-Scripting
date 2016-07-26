@@ -1,7 +1,5 @@
 // Spinal Tap Case Bonfire Solution:
 function spinalCase(str) {
-  // "It's such a fine line between stupid, and clever."
-  // --David St. Hubbins
   var spaceWord = str.replace(/([A-Z])/g, " $1");
   // space stuck together words
   console.log(spaceWord);
@@ -15,4 +13,5 @@ function spinalCase(str) {
   // replace whitespace left in strings, with a dash
   return replaceStr; 
 }
+
 spinalCase('This Is Spinal Tap');
