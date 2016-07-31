@@ -1,0 +1,3 @@
+Sum All Primes Task:
+
+" Sum all the prime numbers up to and including the provided number. " 
