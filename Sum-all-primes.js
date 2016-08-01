@@ -3,7 +3,7 @@ function sumPrimes(num) {
   var primeArr = [];
   // array to store prime numbers
   var numArr = [];
-  // array to store all composite numbers up to given number
+  // array to store all composite numbers up to given number, which may or may not be composite
   for (var i = 2; i <= num; ++i) {
   // SO Sieve of Eratosthenes implementation  
     if (!numArr[i]) { 
