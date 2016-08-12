@@ -16,6 +16,8 @@ function smallestCommons(arr) {
   } 
   while (commonMulti === false) {
     if (commonCount === numRange.length) {
+      lowestCommonMulti = x;
+      // set return var
       commonMulti = true;
       // stop loop
     }
@@ -28,7 +30,6 @@ function smallestCommons(arr) {
     for (var y = 0; y < numRange.length; y++) {
       if ( x % numRange[y] === 0) {
       // if x equally divisble into num in range
-        lowestCommonMulti = x;
         commonCount++;
       }
     } 
