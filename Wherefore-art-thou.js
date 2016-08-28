@@ -1,7 +1,7 @@
 // Wherefore art thou Bonfire Solution 
 function whatIsInAName(collection, source) {
   var arr = [];
-  // Only change code below this line
+  // for result
   var prop = null;
   // for source prop loop
   var objectKeys = Object.keys(collection);
@@ -29,7 +29,6 @@ function whatIsInAName(collection, source) {
     }
   }
   return arr;
-  // only change code above this line
 }
 
 
