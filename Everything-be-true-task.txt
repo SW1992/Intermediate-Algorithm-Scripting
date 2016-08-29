@@ -1,0 +1,3 @@
+Everything Be True Task: 
+
+" Check if the predicate (second argument) is truthy on all elements of a collection (first argument). "
