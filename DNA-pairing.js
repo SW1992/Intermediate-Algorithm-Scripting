@@ -23,30 +23,21 @@ function pairElement(str) {
    }
    else if (pairStrOne === "G") {
      pairStrTwo = "C";
-     
      basePairStr = pairStrOne + pairStrTwo;
-     
      basePairArr = basePairStr.split("");
-     
      twoDimeArr.push(basePairArr);  
    }
    else if (pairStrOne === "T") {
      pairStrTwo = "A";
-     
      basePairStr = pairStrOne + pairStrTwo;
-     
      basePairArr = basePairStr.split("");
-     
      twoDimeArr.push(basePairArr);  
    }
    else {
    // pairStrOne equal to A
      pairStrTwo = "T";
-     
      basePairStr = pairStrOne + pairStrTwo;
-     
      basePairArr = basePairStr.split("");
-     
      twoDimeArr.push(basePairArr);  
    }
  }
